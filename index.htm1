@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع الشركة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+    }
+    header {
+      background: #0077b6;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #0077b6;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #03045e;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #0077b6;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #0096c7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>شركة Egy Nile</h1>
+    <p>خدمات زراعية متكاملة</p>
+  </header>
+
+  <nav>
+    <a href="#about">معلومات عنا</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#contact">اتصل بنا</a>
+  </nav>
+
+  <section id="about">
+    <h2>معلومات عنا</h2>
+    <p>
+      نحن شركة Egy Nile متخصصون في تقديم الحلول الزراعية الحديثة
+      لتحقيق الاستخدام الأمثل للمياه وزيادة الإنتاجية الزراعية.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>خدماتنا</h2>
+    <ul>
+      <li>توريد شبكات ري حديثة</li>
+      <li>استشارات فنية للمزارعين</li>
+      <li>تدريب على الاستخدام الأمثل للمياه</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>اتصل بنا</h2>
+    <p>📍 العنوان: القاهرة – مصر</p>
+    <p>📞 الهاتف: 01011225455</p>
+    <p>✉️ البريد: info@egynile.com</p>
+    <form>
+      <input type="text" placeholder="الاسم" required>
+      <input type="email" placeholder="البريد الإلكتروني" required>
+      <textarea rows="5" placeholder="رسالتك" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة لشركة Egy Nile</p>
+  </footer>
+
+</body>
+</html>
